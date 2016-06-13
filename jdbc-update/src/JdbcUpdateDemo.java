@@ -2,7 +2,7 @@ import java.sql.*;
 
 /**
  * 
- * @author www.luv2code.com
+ * @author Ivan Voytovych
  *
  */
 public class JdbcUpdateDemo {
