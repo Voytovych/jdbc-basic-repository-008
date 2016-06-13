@@ -3,7 +3,7 @@ import java.sql.*;
 /**
  * Test calling stored procedure with IN parameters
  *  
- * @author www.luv2code.com
+ * @author Ivan Voytovych
  *
  */
 public class IncreaseSalariesForDepartment {
