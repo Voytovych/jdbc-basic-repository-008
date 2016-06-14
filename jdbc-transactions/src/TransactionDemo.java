@@ -11,7 +11,7 @@ public class TransactionDemo {
 		try {
 			// 1. Get a connection to database
 			myConn = DriverManager.getConnection(
-					"jdbc:mysql://localhost:3306/demo", "student", "student");
+					"jdbc:mysql://localhost:3306/demo", "root", "root");
 
 			// Turn off auto commit
 			myConn.setAutoCommit(false);
