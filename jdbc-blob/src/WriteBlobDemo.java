@@ -26,7 +26,7 @@ public class WriteBlobDemo {
 					"jdbc:mysql://localhost:3306/demo", "root", "root");
 
 			// 2. Prepare statement
-			String sql = "update employees set resume=? where email='voytovych.ua@gmail.com'";
+			String sql = "update employees set resume=? where email='john.doe@foo.com'";
 			myStmt = myConn.prepareStatement(sql);
 			
 			// 3. Set parameter for resume file name

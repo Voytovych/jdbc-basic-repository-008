@@ -30,7 +30,7 @@ public class ReadBlobDemo {
 
 			// 2. Execute statement
 			myStmt = myConn.createStatement();
-			String sql = "select resume from employees where email='voytovych.ua@gmail.com'";
+			String sql = "select resume from employees where email='john.doe@foo.com'";
 			myRs = myStmt.executeQuery(sql);
 			
 			// 3. Set up a handle to the file
