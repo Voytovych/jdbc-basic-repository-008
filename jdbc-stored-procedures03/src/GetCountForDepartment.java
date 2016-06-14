@@ -8,7 +8,7 @@ import java.sql.Types;
 /**
  * Test calling stored procedure with OUT parameters
  * 
- * @author www.luv2code.com
+ * @author Ivan Voytovych
  *
  */
 public class GetCountForDepartment {
@@ -21,7 +21,7 @@ public class GetCountForDepartment {
 		try {
 			// Get a connection to database
 			myConn = DriverManager.getConnection(
-					"jdbc:mysql://localhost:3306/demo", "student", "student");
+					"jdbc:mysql://localhost:3306/demo", "root", "root");
 
 			String theDepartment = "Engineering";
 			

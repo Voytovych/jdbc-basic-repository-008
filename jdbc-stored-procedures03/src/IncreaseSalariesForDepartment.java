@@ -3,7 +3,7 @@ import java.sql.*;
 /**
  * Test calling stored procedure with IN parameters
  *  
- * @author www.luv2code.com
+ * @author Ivan Voytovych
  *
  */
 public class IncreaseSalariesForDepartment {
@@ -16,7 +16,7 @@ public class IncreaseSalariesForDepartment {
 		try {
 			// Get a connection to database
 			myConn = DriverManager.getConnection(
-					"jdbc:mysql://localhost:3306/demo", "student", "student");
+					"jdbc:mysql://localhost:3306/demo", "root", "root");
 
 			String theDepartment = "Engineering";
 			int theIncreaseAmount = 10000;

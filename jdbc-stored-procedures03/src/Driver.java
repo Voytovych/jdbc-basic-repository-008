@@ -12,7 +12,7 @@ public class Driver {
 		
 		try {
 			// 1. Get a connection to database
-			myConn = DriverManager.getConnection("jdbc:mysql://localhost:3306/demo", "student" , "student");
+			myConn = DriverManager.getConnection("jdbc:mysql://localhost:3306/demo", "root" , "root");
 			
 			// 2. Prepare statement
 			myStmt = myConn.prepareStatement("select * from employees where salary > ? and department=?");
