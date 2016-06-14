@@ -9,7 +9,7 @@ import java.sql.Statement;
 
 /**
  * 
- * @author www.luv2code.com
+ * @author Ivan Voytovych
  *
  */
 public class WriteClobDemo {
@@ -24,7 +24,7 @@ public class WriteClobDemo {
 		try {
 			// 1. Get a connection to database
 			myConn = DriverManager.getConnection(
-					"jdbc:mysql://localhost:3306/demo", "student", "student");
+					"jdbc:mysql://localhost:3306/demo", "root", "root");
 
 			// 2. Prepare statement
 			String sql = "update employees set resume=? where email='john.doe@foo.com'";
